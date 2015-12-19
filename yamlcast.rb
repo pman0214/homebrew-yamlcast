@@ -2,6 +2,7 @@ require 'formula'
 
 class Yamlcast < Formula
   homepage 'http://yamlcast.readthedocs.org/'
+  url 'https://github.com/unnonouno/yamlcast/archive/master.tar.gz'
   head 'https://github.com/unnonouno/yamlcast.git'
   sha1 'b3be97c0a87ae8cf79228d751e4a36bdee4013af'
   version 'mavericks-2015219'
