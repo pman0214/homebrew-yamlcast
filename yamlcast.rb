@@ -2,10 +2,10 @@ require 'formula'
 
 class Yamlcast < Formula
   homepage 'http://yamlcast.readthedocs.org/'
-  url 'https://github.com/unnonouno/yamlcast/archive/master.tar.gz'
+  url 'https://github.com/unnonouno/yamlcast/archive/0.1.0.tar.gz'
   head 'https://github.com/unnonouno/yamlcast.git'
-  sha1 'b3be97c0a87ae8cf79228d751e4a36bdee4013af'
-  version 'mavericks-2015219'
+  sha256 'af8e8d0cf40540238b56c87dc7b6751c77de6de00c7b9959595f889cfac1b7fd'
+  version 'mavericks-0.1.0'
 
   depends_on 'libyaml'
   depends_on 'pficommon'
